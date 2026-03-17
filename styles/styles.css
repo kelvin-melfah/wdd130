@@ -41,6 +41,7 @@ aside img {
   width: 200px;
   height: auto;
 }
+
 body {
   background-color: lightblue;
 }
@@ -49,4 +50,9 @@ footer {
   margin-top: 1em;
   border-top: 1px solid O#000;
   text-align: center;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
 }
