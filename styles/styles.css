@@ -46,13 +46,8 @@ body {
   background-color: lightblue;
 }
 
+header,
 footer {
-  margin-top: 1em;
-  border-top: 1px solid O#000;
-  text-align: center;
-}
-
-main {
-  max-width: 800px;
+  max-width: 840px;
   margin: 0 auto;
 }
