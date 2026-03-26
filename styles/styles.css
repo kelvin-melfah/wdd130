@@ -1,5 +1,28 @@
+:root {
+  --primary-color: #1b4965;
+  --secondary-color: #62b6cb;
+  --accent1-color: #5fa8d3;
+  --accent2-color: #cae9ff;
+  --heading-font: "Georgia", serif;
+  --body-font: Arial, Helvetica, sans-serif;
+}
+
+/* Body */
+body {
+  background-color: var(--accent2-color);
+  font-family: var(--body-font);
+}
+
+/* Header & Footer */
+header,
+footer {
+  max-width: 840px;
+  margin: 0 auto;
+}
+
+/* Navigation */
 nav {
-  background-color: darkblue;
+  background-color: var(--primary-color);
   padding: 10px;
 }
 
@@ -9,45 +32,41 @@ nav a {
   display: block;
 }
 
+/* Heading */
 h1 {
-  color: Osteelblue;
+  color: var(--secondary-color);
+  /* ✅ now used */
+  font-family: var(--heading-font);
 }
 
+/* Image */
 main img {
   width: 150px;
   height: auto;
-  border: 1px solid steelblue;
+  border: 1px solid var(--accent1-color);
   padding: 10px;
   box-shadow: 0 0 30px gray;
 }
 
+/* Paragraph */
 p {
   padding: 0;
 }
 
+/* Aside */
 aside {
   width: 20em;
   margin: 1em;
-  border: 1px solid Orgba(0, 0, 0, 0.2);
-  /* why use rgba instead of hex here? */
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  /* fixed typo */
   padding: 1em;
-  background-color:
-    #eee;
-  color: O#333;
+  background-color: var(--accent2-color);
+  color: #333;
+  /* fixed typo */
   text-align: center;
 }
 
 aside img {
   width: 200px;
   height: auto;
-}
-
-body {
-  background-color: lightblue;
-}
-
-header,
-footer {
-  max-width: 840px;
-  margin: 0 auto;
 }
