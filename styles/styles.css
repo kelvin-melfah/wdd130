@@ -1,3 +1,12 @@
+:root {
+  --primary-color: #1b4965;
+  --secondary-color: #62b6cb;
+  --accent1-color: #5fa8d3;
+  --accent2-color: #cae9ff;
+  --heading-font: "Georgia", serif;
+  --body-font: Arial, Helvetica, sans-serif;
+}
+
 nav {
   background-color: steelblue;
   padding: 1rem;
@@ -36,6 +45,11 @@ p {
 
 aside img {
   width: 200px;
+  height: auto;
+}
+
+aside figure img {
+  width: 100px;
   height: auto;
 }
 
