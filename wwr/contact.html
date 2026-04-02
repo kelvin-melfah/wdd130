@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ✅ Updated Meta -->
+  <meta name="description"
+    content="Contact White Water Rafting Company for bookings, questions, and adventure inquiries. Reach us via phone, email, or visit our location.">
+  <meta name="author" content="Kelvin Melfah">
+
+  <!-- ✅ Updated Title -->
+  <title>Contact Us | White Water Rafting Company</title>
+
+  <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+
+  <!-- HEADER (UNCHANGED) -->
+  <header>
+    <img src="images/z-raftingcompas.jpg" alt="Rafting Company Logo">
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="trips.html">Trips</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- MAIN -->
+  <main>
+
+    <h1>Contact Us</h1>
+
+    <!-- COMPANY INFO -->
+    <section class="contact-info">
+      <h2>Our Office</h2>
+      <p><strong>Address:</strong> 123 River Road, Accra, Ghana</p>
+      <p><strong>Phone:</strong> +233 55 123 4567</p>
+      <p><strong>Email:</strong> info@whitewater.com</p>
+
+      <!-- Google Map -->
+      <iframe src="https://www.google.com/maps?q=Accra,Ghana&output=embed" loading="lazy">
+      </iframe>
+    </section>
+
+    <!-- EMPLOYEES -->
+    <section class="employees">
+      <h2>Meet Our Team</h2>
+
+      <figure>
+        <img src="images/guide1.jpg" alt="River Guide">
+        <figcaption>John Mensah – Lead Guide</figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/guide2.jpg" alt="Safety Officer">
+        <figcaption>Sarah Owusu – Safety Officer</figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/guide3.jpg" alt="Manager">
+        <figcaption>David Asante – Operations Manager</figcaption>
+      </figure>
+    </section>
+
+    <!-- FORM -->
+    <section class="contact-form">
+      <h2>Send Us a Message</h2>
+
+      <form action="#" method="post">
+
+        <!-- Name -->
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <!-- Email -->
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" required>
+
+        <!-- Purpose -->
+        <p>Purpose of Message:</p>
+
+        <label><input type="radio" name="purpose" value="general" required> General Inquiry</label>
+        <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
+        <label><input type="radio" name="purpose" value="suggestion"> Website Suggestion</label>
+
+        <!-- Message -->
+        <label for="message">Your Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <!-- Checkbox -->
+        <label>
+          <input type="checkbox" name="subscribe">
+          Please subscribe me to the monthly newsletter
+        </label>
+
+        <!-- Submit -->
+        <button type="submit">Send Message</button>
+
+      </form>
+    </section>
+
+  </main>
+
+  <!-- FOOTER (UNCHANGED) -->
+  <footer>
+    <p>© 2026 White Water Rafting Company | Kelvin Melfah</p>
+
+    <nav class="socialmedia">
+      <a href="https://facebook.com">
+        <img src="images/facebook.svg" alt="Facebook">
+      </a>
+      <a href="https://linkedin.com">
+        <img src="images/linkedin.svg" alt="LinkedIn">
+      </a>
+      <a href="https://instagram.com">
+        <img src="images/instagram.svg" alt="Instagram">
+      </a>
+    </nav>
+  </footer>
+
+</body>
+
+</html>
