@@ -1,0 +1,40 @@
+CSE 111 Proposal for a Student Chosen Program
+
+    (This is a proposal. All proposals are written with our best
+    knowledge at the beginning of a project. As we progress from the
+    beginning to the end of a project, we gain more knowledge, and we
+    change some of our proposed ideas. This is part of completing any
+    project and is fine.  However, we still must write a proposal so
+    that our teachers or supervisors know what we intend to do. Please
+    answer each of the following questions to the best of your
+    knowledge.)
+
+1. What is the title of your program?
+Student Grade Analyzer
+
+2. What real-world problem will your program address or help to solve?
+This program helps teachers and schools analyze student performance quickly by calculating averages and assigning grades automatically instead of doing it manually.
+
+3. What will you learn from developing this program?
+How to read and process CSV files
+How to design reusable functions
+How to organize programs into logical parts
+How to write and run tests using pytest
+How to analyze real-world data
+
+4. What Python modules will your program use?
+csv (to read data files)
+pytest (for testing functions)
+
+5. List the names of functions you will need?
+read_scores(filename)
+calculate_average(scores)
+assign_grade(score)
+group_by_student(data)
+analyze_students(data)
+display_results(summary)
+main()
+
+6. List the names of the test functions you will write.
+test_calculate_average()
+test_assign_grade()

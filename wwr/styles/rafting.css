@@ -37,7 +37,6 @@ footer {
 header {
   background-color: var(--primary-color);
   color: var(--accent2-color);
-  display: grid;
   grid-template-columns: auto 1fr;
   /* logo + nav */
   align-items: center;
@@ -51,7 +50,6 @@ header img {
 
 /* NAVIGATION */
 nav ul {
-  display: flex;
   justify-content: flex-end;
   list-style: none;
 }
@@ -176,4 +174,87 @@ footer {
 .adventures figcaption {
   font-size: 0.9rem;
   margin-top: 5px;
+}
+
+.trip-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.trip-card img {
+  width: 100%;
+}
+
+/* HEADER LAYOUT */
+.site-header {
+  background-color: #1f4e63;
+  /* dark blue background */
+  padding: 10px 0;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* LOGO */
+.logo {
+  width: 80px;
+  height: auto;
+}
+
+/* NAV BAR */
+.nav-bar {
+  background-color: #6fb3c8;
+  /* light blue bar */
+  padding: 10px 20px;
+  display: flex;
+  gap: 25px;
+}
+
+/* NAV LINKS */
+.nav-bar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.nav-bar a:hover {
+  text-decoration: underline;
+}
+
+.newsletter {
+  background-color: var(--accent2-color);
+  padding: 20px;
+  text-align: center;
+}
+
+.newsletter form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: auto;
+}
+
+.newsletter input,
+.newsletter button {
+  margin: 5px 0;
+  padding: 10px;
+}
+
+.grid-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.grid-item img {
+  width: 100%;
 }
